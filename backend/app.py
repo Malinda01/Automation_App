@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify  # pyright: ignore[reportMissingImports]
 import csv
 from search import search_company
 from google_client import append_row
