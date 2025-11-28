@@ -1,0 +1,29 @@
+.app {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .upload-container,
+  .results-container {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background: #f8f9fa;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #007bff;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background: gray;
+  }
+  
